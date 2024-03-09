@@ -1,0 +1,27 @@
+ class Person{
+  private String name;
+  private int age;
+  public void setName(String name)
+  {
+    this.name=name;
+  }
+  public String getName(){
+    return name;
+  }
+  public void setAge(int age){
+    this.age=age;
+  }
+  public int getAge(){
+    return age;
+  }
+}
+public class Main{
+  public static void main(String arges[]){
+    Person person=new Person();
+    person.setName("usha");
+    person.setAge(30);
+    String name=person.getName();
+    int age=person.getAge();
+    System.out.println("Name:"+name + "and Age:"+age);
+  }
+}
